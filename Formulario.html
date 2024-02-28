@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+    </head>
+
+    <body>
+        <h1>Rellena tu CV</h1>
+        <legend>Formulario Simple</legend>
+        <form>
+            
+            <br>
+            Nombre:
+            <input type="text" name="nombre" value=""/><br><br>
+            
+            Apellidos:
+            <input type="text" name="apellidos" value=""/><br><br>
+
+            Contraseña:
+            <input type="password" name="contrasena" value=""/><br><br>
+
+            DNI:
+            <input type="dni" name="dni" value=""/><br><br>
+
+            Sexo:
+            <input type="radio" name="sexo" value="hombre"> Hombre
+            <input type="radio" name="sexo" value="mujer"> Mujer <br><br>
+
+            Incluir una foto:
+            <input type="file" name="adjunto" value=""/><br><br>
+
+            <input type="checkbox" name="check"> Suscribirse al boletin de novedades.<br><br>
+
+            <input type="button" name="Guardar" value="Guardar cambios">
+            <input type="reset" name="borrar" value="Borrar todos los datos">
+            
+        </form>
+        
+
+
+    </br></br>
+        <h1>Rellena tu CV</h1>
+
+        </h1>
+        <fieldset>
+            <legend>Formulario Avanzado</legend>
+
+            <form>
+
+                Nombre:
+                <input type="text" name="nombre" value="" /><br><br>
+
+                Apellidos: 
+                <input type="text" name="apellidos" value=""/><br><br>
+
+                Contraseña:
+                <input type="password" name="contrasena" value="" /><br><br>
+
+                Fecha de nacimiento:
+                <input type="date" name="fecha" value="">
+                <br><br>
+
+    
+                Sexo: <br>
+                <input type="radio" name="sexo" value="hombre" /> Hombre
+                <input type="radio" name="sexo" value="mujer" /> Mujer 
+                <br><br>
+
+                <label for="SI">Sistema operativo que mas le gusta</label> <br/>
+                <select id="SI" name="SI">
+                    <optgroup label="Sistemas Operativos">
+                        <option value="--------" selected="selected">--------</option>
+                        <option value="Windows">Windows</option>
+                        <option value="Mac">Mac</option>
+                        <option value="Linux">Linux</option>
+                        <option value="Other">Otro</option>
+                    </optgroup>
+                </select>
+
+                <br><br>
+                <label for="Navegadores">Navegador Preferido</label> <br>
+                <select id="Navegadores" name="Navegadores">
+                    <optgroup label="Navegadores">
+                        <option value="--------" selected="selected">--------</option>
+                        <option value="Internet Explorer">Internet Explorer</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Other">Otro</option>
+                    </optgroup>
+                </select>
+
+                <br><br>
+                <label for="SI movil">Sistema operativo movil preferido</label><br>
+                <select id="SI movil" name="SImovil">
+                    <optgroup label="SI movil">
+                        <option value="--------" selected="selected">--------</option>
+                        <option value="Android">Android</option>
+                        <option value="IOS">IOS</option>
+                    </optgroup>
+                </select>
+
+                <br><br>
+                <label for="tdi">Temas de interes</label> <br/>
+                <select id="tdi" name="tdi" size="5" multiple="multiple">
+                    <option value="Administracion de BD">Administracion de bases de datos</option>
+                    <option value="Analisis de sistemas">Analisis de sistemas</option>
+                    <option value="Analisis y programacion">Analisis y programacion</option>
+                    <option value="Seguridad Informatica">Seguridad informatica</option>
+                    <option value="Arquitectura">Arquitectura</option>
+                    <option value="Calidad">Calidad</option>
+                    <option value="ERP,CPM,Bussiness">ERP,CPM, Bussiness Intelligence</option>
+                    <option value="IA">Inteligencia Artificial</option>
+                </select>
+
+                <br><br>
+                Fichero adjunto
+                <input type="file" name="adjunto" />
+
+                <br><br>
+                <input type="image" name="enviar" src="./Imagenes/check.png"/>
+                <input type="button" name="Guardar" value="Guardar">
+                <input type="reset" name="borrar" value="Borrar">
+            
+            </form>
+
+        </fieldset>
+        
+
+    </body>
+</html>
+    
